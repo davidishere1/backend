@@ -326,3 +326,7 @@ npm run migration:revert
 - [ ] Add role-based authorization guards (currently JWT-authenticated but not role-scoped) to maintainer/sponsor-only endpoints.
 - [ ] Add pagination/filtering to list endpoints (bounties, milestones, pools) as data volume grows.
 - [ ] Weighted (not just even) per-issue milestone budget distribution.
+
+## Fix for Issue #203: Stellar payment flow architecture diagram missing
+
+Add a sequence diagram showing the end-to-end Stellar payment flow from merchant initiation through Horizon submission to webhook delivery.
